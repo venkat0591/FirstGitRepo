@@ -1,0 +1,87 @@
+/* body{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	margin-top: 300px;
+
+}
+
+p::before{
+	content: "hello";
+	background: red;
+	font-size: 20px;
+	font-weight: 800;
+	display: block;
+}
+p::after{
+	display: block;
+	content: "goodbye";
+	background: red;
+	font-size: 20px;
+	font-weight: 800;
+
+}
+blockquote	{
+	font-size: 2rem;
+	color: red;
+}
+blockquote::before{
+	content: open-quote;
+	font-size: 2em;
+	color: #ddd;
+}	
+blockquote::after{
+	content: close-quote;
+	font-size: 2em;
+	color: #ddd;
+}	
+a{
+	font-size: 1rem;
+	color: red;
+	position: relative;
+	border-bottom: 1px dotted red;
+}
+a::after{
+	content: "Hello, yo!";
+	position: absolute;
+	background-color: #464646;
+	padding: 1em 1em;
+	color: white;
+	border-radius: 8px;
+	font-size: .8em;
+	bottom: 130%;
+	left: 30%;
+	white-space: nowrap;
+	transform: scale(0);
+	transition: transform ease-out 140ms, bottom ease-out 150ms;
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f35d';
+} 
+a:hover::after{
+	transform: scale(1);
+}
+h3{
+	font-size: 1rem;
+	color: red;
+	text-align: justify;
+}
+*, *::before, *::after {box-sizing: border-box;}
+*/
+
+.parent {
+	background: aquamarine;
+	height: 75vh;
+	width: 75vw;
+	padding: 1em;
+	
+}
+.child {
+	background: red;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
